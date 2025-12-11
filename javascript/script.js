@@ -7,7 +7,7 @@ function calculateExtras(extraElements) {
   // Loop through each checkbox and add its value if selected
   extraElements.forEach((item) => {
     if (item.checked) {
-      total += +item.value; // unary plus replaces Number()
+      total += +item.value; 
     }
   });
 
@@ -23,7 +23,7 @@ document.getElementById("shirtForm").addEventListener("submit", function (e) {
     let first = document.getElementById("firstName").value;
     let last = document.getElementById("lastName").value;
     let email = document.getElementById("email").value;
-    let quantity = +document.getElementById("quantity").value; // unary plus
+    let quantity = +document.getElementById("quantity").value; 
 
     // Validate inputs
     if (first === "" || last === "" || email === "" || quantity < 1) {
@@ -39,7 +39,7 @@ document.getElementById("shirtForm").addEventListener("submit", function (e) {
     }
 
     // Calculate totals
-    let basePrice = +size.value; // unary plus
+    let basePrice = +size.value; 
     let extraCost = calculateExtras(extras);
     let total = (basePrice + extraCost) * quantity;
 
