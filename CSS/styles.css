@@ -1,0 +1,52 @@
+/*My main font with background color*/
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5efed;
+}
+/*My header ceters speerating body from my choose shirt*/
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*My order forms CSS/display*/
+.order-form,
+.product-display {
+  margin: 20px auto;
+  max-width: 500px;
+  background: #eef1ef;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #ccc;
+}
+/*My block labels bottom margin*/
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+/*My order Summarys CSS*/
+#orderSummary {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fafffd;
+  box-shadow: 0 0 0.9px;
+  border-radius: 6px;
+  display: none;
+}
+/*My link color before hover*/
+a {
+  text-decoration: none;
+  color: #857e77;
+}
+/*My link hover*/
+a:hover {
+  color: #dd99bb;
+}
+/*My img transform for lifting of image effect */
+img:hover {
+  transform: translateY(-1px);
+}
+/*Nav margin/seperation*/
+nav a {
+  margin: 0 10px;
+}
